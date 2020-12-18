@@ -1,0 +1,27 @@
+#discord {
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#dc-text {
+    text-align: center;
+    font-size: 2vw;
+    width: 60%;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    #discord {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 8%;
+    }
+    
+    #dc-text {
+    font-size: 6vw;
+    width: 95%;
+    margin-left: 2.5%;
+    }
+}

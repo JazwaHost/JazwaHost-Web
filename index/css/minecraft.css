@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "minecraft";
+  src: url("fonts/minecrafter.alt-webfont.woff2") format("woff2"),
+    url("fonts/minecrafter.alt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.film {
+  width: 100%;
+  height: 600px;
+}
+
+#body {
+  font-family: "minecraft", Arial, sans-serif;
+}
+
+#siema {
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 5vw;
+  list-style-type: none;
+}
+
+.bar {
+  margin: auto;
+  background: #ff00ff;
+  width: 50%;
+  height: 10px;
+  box-shadow: 4px 4px 0 #000;
+  border-radius: 40px;
+}
+
+#timer_div {
+  text-shadow: 4px 4px 0 #000;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.ceny,
+.zasady {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 1.5vw;
+  text-shadow: 3px 3px 0 #000;
+  overflow: auto;
+}
+
+.ceny_title,
+.zasady_title {
+  font-size: 2vw;
+  text-shadow: 4px 4px 0 #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.ogolne,
+.chat {
+  float: left;
+  width: 50%;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .film {
+    width: 100%;
+    height: 230px;
+  }
+
+  #timer_div {
+    text-shadow: 2px 2px 0 #000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  #siema {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 10vw;
+    list-style-type: none;
+  }
+
+  .bar {
+    width: 80%;
+    height: 5px;
+    box-shadow: 2px 2px 0 #000;
+  }
+
+  .ceny,
+  .zasady {
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 5vw;
+    text-shadow: 3px 3px 0 #000;
+  }
+
+  .ceny_title,
+  .zasady_title {
+    font-size: 10vw;
+  }
+
+  .ogolne,
+  .chat {
+    float: none;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+}

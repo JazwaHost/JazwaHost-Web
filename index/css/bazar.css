@@ -1,0 +1,101 @@
+#fizyka{
+    width: 33%;
+    float: left;
+    text-align: center;    
+}
+#chemia {
+    width: 33%;
+    float: right;
+    text-align: center;     
+}
+#geografia {
+    width: 33%;
+    float: right;
+    text-align: center;     
+}
+#biologia {
+    width: 33%;
+    float: left;
+    text-align: center;     
+}
+#edb {
+    width: 33%;
+    float: left;
+    text-align: center;     
+}
+#historia {
+    width: 33%;
+    float: left;
+    text-align: center;     
+}
+j {
+   color: red;
+}
+a {
+    color: pink;
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px)  {
+#fizyka{
+    width: 42%;
+    float: left;
+    text-align: center;    
+}
+#chemia {
+    width: 42%;
+    float: right;
+    text-align: center;     
+}
+#geografia {
+    width: 42%;
+    float: right;
+    text-align: center;     
+}
+#biologia {
+    width: 42%;
+    float: left;
+    text-align: center;     
+}
+#historia {
+    width: 42%;
+    float: left;
+    text-align: center;     
+}
+#edb {
+    width: 42%;
+    float: right;
+    text-align: center;     
+}
+
+}
+@media only screen and (max-width: 768px) {
+ #fizyka{
+    width: 100%;
+    text-align: center;    
+}
+#chemia {
+    width: 100%;
+    text-align: center;     
+}
+#geografia {
+    width: 100%;
+    text-align: center;     
+}
+#biologia {
+    width: 100%;
+    text-align: center;  
+}
+#historia {
+    width: 100%;
+    text-align: center;     
+}
+#edb {
+    width: 100%;
+    text-align: center; 
+}
+}
+j {
+   color: red;
+}
+a {
+    color: pink;
+}

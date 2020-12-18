@@ -1,0 +1,177 @@
+#LSK_via_arthur {
+  text-decoration: none;
+
+  width: 90%;
+
+  margin: auto;
+
+  padding-top: 15px;
+
+  padding: 2.5%;
+
+  text-align: center;
+}
+
+#LSK_via_arthur p {
+  font-weight: 900;
+
+  font-size: 5vw;
+
+  padding: 20px;
+
+  text-shadow: 3px 3px 0 #000;
+}
+
+.Img {
+  text-decoration: none;
+}
+
+.myImg {
+  margin-right: 2.5%;
+
+  margin-bottom: 20px;
+
+  width: 19%;
+
+  box-shadow: 0px 0px 25px #000000;
+
+  border-radius: 10px;
+}
+
+.myImg:hover {
+  opacity: 0.5;
+
+  text-decoration: none;
+}
+
+#presentations {
+  text-align: center;
+
+  margin: auto;
+
+  width: 90%;
+
+  margin: auto;
+}
+
+.presentation_div {
+  width: 45%;
+
+  margin-right: 2.5%;
+
+  margin-left: 2.5%;
+
+  margin-bottom: 5%;
+
+  float: left;
+}
+
+.presentation {
+  width: 100%;
+
+  height: 20vw;
+
+  box-shadow: 0px 0px 25px #000000;
+
+  border-radius: 10px;
+
+  margin-bottom: 2.5%;
+}
+
+.pdf_div {
+  margin-left: 7.5%;
+}
+
+.pdf {
+  width: 92.5%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.pdf iframe {
+  width: 100%;
+
+  height: 50vw;
+
+  box-shadow: 0px 0px 25px #000000;
+
+  border-radius: 10px;
+
+  margin-bottom: 2.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  #kampf_via_arthur {
+    margin-left: 2.5%;
+
+    margin-bottom: 2.5%;
+
+    padding-top: 0%;
+
+    padding-left: 0%;
+
+    font-weight: 800;
+
+    width: 95%;
+  }
+
+  #LSK_via_arthur p {
+    font-size: 8vw;
+
+    padding: 10px;
+  }
+
+  .myImg {
+    margin-right: 0%;
+
+    margin-bottom: 20px;
+
+    width: 100%;
+  }
+
+  .presentations {
+    text-align: center;
+
+    margin: auto;
+
+    width: 90%;
+
+    margin-left: 5%;
+  }
+
+  .presentation_div {
+    width: 100%;
+
+    margin-bottom: 2%;
+
+    margin-right: 0%;
+
+    margin-left: 0%;
+
+    float: none;
+  }
+
+  .presentation {
+    width: 100%;
+
+    height: 55vw;
+  }
+
+  .pdf_div {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .pdf {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-right: 0%;
+    margin-left: 0%;
+    float: none;
+  }
+
+  .pdf iframe {
+    width: 100%;
+    height: 120vw;
+  }
+}

@@ -1,0 +1,192 @@
+header {
+  width: 15%;
+
+  height: 100%;
+
+  background-color: #202020;
+
+  position: fixed;
+
+  box-shadow: 0px 0px 25px #000000;
+}
+
+#nav_header {
+  width: 100%;
+
+  background: #151515;
+
+  box-shadow: 0px 0px 10px #000000;
+}
+
+#nav_header a {
+  opacity: 1;
+
+  display: flex;
+
+  align-items: center;
+
+  font-weight: 800;
+
+  text-shadow: 2px 2px 0 rgb(30, 30, 30);
+}
+
+#nav_header img {
+  width: 25%;
+
+  padding-right: 5%;
+}
+
+#nav_header span,
+#links span {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+
+  color: #fff;
+
+  opacity: 0.75;
+
+  display: block;
+
+  padding: 0.7rem;
+
+  font-size: 1.5vw;
+
+  text-shadow: 2px 2px 0 #000;
+}
+
+li a:hover:not(#nav_header) {
+  opacity: 1;
+
+  background: #252525;
+
+  box-shadow: 0px 0px 5px #000000;
+}
+
+#countdown_div {
+  position: absolute;
+
+  text-align: center;
+
+  bottom: 15px;
+
+  width: 90%;
+
+  margin-left: 5%;
+
+  font-weight: 800;
+
+  list-style-type: none;
+
+  box-sizing: border-box;
+
+  box-shadow: 0px 0px 10px #000000;
+}
+
+#countdown {
+  width: 100%;
+
+  padding: 20px 0px;
+
+  background: #252525;
+
+  font-size: 1vw;
+
+  text-shadow: 2px 2px 0 #000;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+
+    height: 0;
+  }
+
+  #nav_header {
+    background: rgba(15, 15, 15, 90%);
+  }
+
+  #nav_header img {
+    width: 15%;
+
+    padding-right: 4%;
+  }
+
+  nav a {
+    font-size: 7vw;
+
+    display: flex;
+
+    align-items: center;
+
+    z-index: 1;
+  }
+
+  #links {
+    right: 0;
+
+    height: 100%;
+
+    width: 0;
+
+    position: fixed;
+
+    z-index: 1;
+
+    background: rgba(20, 20, 20, 99%);
+
+    overflow-x: hidden;
+
+    transition: 0.4s;
+
+    padding-top: 10px;
+  }
+
+  #links a {
+    opacity: 1;
+
+    position: sticky;
+  }
+
+  #nav_header span,
+  #links span {
+    display: block;
+
+    margin-left: auto;
+
+    padding: 1%;
+
+    z-index: 2;
+  }
+
+  #nav_header span,
+  #links span {
+    position: absolute;
+
+    top: 10px;
+
+    right: 10px;
+
+    font-size: 9vw;
+  }
+
+  #countdown_div {
+    bottom: 5%;
+
+    width: 95%;
+
+    margin-left: 2.5%;
+  }
+
+  #countdown {
+    padding: 10px 0px;
+
+    font-size: 4vw;
+  }
+}
